@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/saa"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No. of click"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_marginTop="20dp"
+        android:textSize="50dp"
+        android:textColor="#222222"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_weight="1"
+            android:text="Click me!"
+            android:layout_marginVertical="20dp"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="@color/greenColor"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_height="60dp"/>
+
+        <Button
+            android:id="@+id/buttonNext"
+            android:layout_weight="1"
+            android:text="Next"
+            android:layout_marginVertical="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/redColor"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_height="60dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
